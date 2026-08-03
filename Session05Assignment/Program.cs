@@ -65,7 +65,7 @@
                 string genreText2 = "Mystery";
                 if (Enum.TryParse(genreText2, out Genre tryParsedGenre))
                 {
-                    Console.WriteLine($"Successfully parsed: {tryParsedGenre}");
+                    Console.WriteLine($"parsed: {tryParsedGenre}");
                 }
                 else
                 {
